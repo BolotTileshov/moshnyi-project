@@ -1,0 +1,334 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #30064b;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0
+}
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    width: 90px;
+    height: 45px;
+}
+.header-nav a{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 15px;
+}
+a:hover{
+    text-decoration-line:underline;
+    background: darkslategray;
+    transition: .4s;
+}
+
+.header-btn2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+}
+.header-btn1{
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+/*/////////bur-sell/////////////*/
+.hero-img {
+display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-left: 300px;
+    margin-bottom: -150px;
+}
+.buy-sell h3{
+    width: 452px;
+    height: 246px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 82px;
+    color: #FFFFFF;
+}
+.buy-sell h3 span{
+  color: #520d73;
+}
+.buy-sell h4{
+    width: 442px;
+    height: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #D7D7D7;
+    margin-top: 40px;
+}
+.hero-img div{
+    width: 72px;
+    height: 72px;
+    background: #8A40FF;
+    border-radius: 8px;
+}
+.hero-img{
+    margin-top: 50px;
+}
+
+.explure button{
+    color: #FFFFFF;
+    width: 123px;
+    height: 54px;
+    background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+    border-radius: 4px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.explure{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.ion{
+    background: blueviolet;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ion ion-icon{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.explure a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.btn-block{
+    width: 499px;
+    height: 120px;
+    left: 100px;
+    top: 673px;
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-top: 50px;
+}
+.vk h1{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.vk p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D7D7D7;
+}
+.semk h1{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.semk p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D7D7D7;
+}
+.trik h1{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.trik p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D7D7D7;
+}
+
+.history h1{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+#history{
+    margin-top: 100px;
+}
+.history{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.history h2{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D7D7D7;
+}
+.history button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: blueviolet;
+    border-radius: 8px;
+}
+.history-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*//////////////create/////////*/
+#create h1{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.create {
+    width: 1240px;
+    height: 320px;
+    background: #211538;
+    border-radius: 8px;
+    margin-left: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.create-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.create-left h2{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.create-left p {
+    width: 255px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #D7D7D7;
+}
+.create-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.create-right h2{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.create-right p {
+    width: 255px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #D7D7D7;
+}
+
+
+/*///////////////top-galleries///////////////*/
+.gallaries{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+text-align: center;
+}
+.top{
+    width: 388px;
+    height: 449px;
+    border-radius: 8px;
+    border: 2px solid #8A40FF;
+}
+.top img {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    /*flex-direction: column;*/
+}
+.top-img{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.top h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.top p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #D7D7D7;
+}
+.top ion-icon{
+    margin-left: 300px;
+    color: #FFFFFF;
+}
+.btnsee {
+    background: linear-gradient(107.64deg, rgba(200, 34, 228, 0.3) 19.89%, rgba(87, 25, 244, 0.3) 89.77%);
+    border-radius: 4px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.top-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
